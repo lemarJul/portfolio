@@ -1,3 +1,4 @@
+window.onload = function () {
   const url = "https://script.google.com/macros/s/AKfycbyIt77NLD50IS6QwSntkjj_78QmSPIZStrLBBk-y2ZHp0sIYnYqK2oDlIl3myQ6kgG4/exec";
   // Make an HTTP GET request using fetch()
   fetch(url)

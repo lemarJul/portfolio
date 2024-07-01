@@ -1,0 +1,100 @@
+.section {
+  display: flex;
+}
+
+.section > * {
+  box-sizing: border-box;
+  border-radius: var(--border-radius);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Hide overflow content */
+  text-overflow: ellipsis; /* Show ellipsis for overflow text */
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.icon {
+  padding: var(--padding-medium);
+  background-color: var(--color-yellow);
+  object-fit: fill;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  justify-self: center;
+  border-radius: 50%;
+}
+.title {
+  background-image: url("../../assets/bg/dark.png");
+  background-position: center;
+  background-size: cover;
+  padding: var(--padding-medium);
+
+  color: var(--color-light);
+  font-family: "Roboto", sans-serif;
+  font-size: var(--h2-size);
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-size: var(--h3-size);
+  background-image: url("../../assets/bg/dark.png");
+  background-position: center;
+  background-size: cover;
+  padding: var(--padding-medium);
+  color: var(--color-light);
+  text-align: center;
+  border-radius: var(--border-radius);
+}
+
+.profil_img {
+  background-color: var(--color-yellow);
+  object-fit: fill;
+}
+.description {
+  background-color: var(--color-light);
+  text-align: justify;
+  padding: var(--padding-medium);
+}
+
+.social_links {
+  background-color: var(--color-blue);
+  padding: var(--padding-medium);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social_links a {
+  color: var(--color-green-light) !important;
+  margin: 0 var(--gap-medium);
+}
+.stack {
+  background-color: var(--color-red);
+  padding: var(--padding-medium);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects {
+  background-color: var(--color-red);
+  padding: var(--padding-medium);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.action {
+  background-color: var(--color-blue);
+  padding: var(--padding-medium);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mail {
+  background-color: var(--color-yellow);
+  padding: var(--padding-medium);
+}

@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: var(--padding-medium);
+  background-color: var(--color-light);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.title {
+  font-size: var(--h1-size);
+  font-weight: bold;
+  color: var(--color-dark);
+  text-align: center;
+  margin-bottom: var(--margin-medium);
+  flex-grow: 1;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}

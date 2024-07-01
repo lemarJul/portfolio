@@ -1,0 +1,30 @@
+@keyframes slide-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(
+      -50%
+    ); /* Since the text is duplicated, moving 50% will start the repeat */
+  }
+}
+
+.slidingTextContainer {
+  overflow: hidden;
+  white-space: nowrap; /* Ensure text does not wrap */
+  background-color: var(--color-green-light);
+  border: 3px solid var(--color-blue);
+  padding: var(padding-medium);
+  display: flex;  
+  justify-content: center;
+  border-radius: var(--border-radius);
+}
+
+.slidingText {
+  display: flex; /* Align duplicated text spans in a row */
+  animation: slide-left 5s linear infinite;
+}
+.slidingText span {
+  display: inline-block; /* Align text in a row */
+  padding-right: 1em; /* Add space between text */
+}

@@ -3,6 +3,21 @@ import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
+import "@fontsource/roboto/900.css";
+import "@fontsource/barlow-condensed/100.css";
+import "@fontsource/barlow-condensed/200.css";
+import "@fontsource/barlow-condensed/300.css";
+import "@fontsource/barlow-condensed/400.css";
+import "@fontsource/barlow-condensed/500.css";
+import "@fontsource/barlow-condensed/700.css";
+import "@fontsource/barlow-condensed/900.css";
+import "@fontsource/barlow/100.css";
+import "@fontsource/barlow/200.css";
+import "@fontsource/barlow/300.css";
+import "@fontsource/barlow/400.css";
+import "@fontsource/barlow/500.css";
+import "@fontsource/barlow/700.css";
+import "@fontsource/barlow/900.css";
 // Styles - Theme
 import theme from "./utils/theme";
 // Styles - Components

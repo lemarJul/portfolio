@@ -26,6 +26,12 @@
   --font-size-small: 0.8rem;
   --font-size-medium: 1rem;
   --font-size-large: 1.5rem;
+  --spacing-xsmall: 0.25rem;
+  --spacing-small: 0.5rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 2rem;
+  --spacing-xlarge: 4rem;
+  --spacing-xxlarge: 8rem;
   --h1-size: 4rem;
   --h2-size: 3rem;
   --h3-size: 2rem;
@@ -50,7 +56,6 @@ p {
 p {
   font-size: var(--font-size-medium);
   padding: var(--padding-medium);
-
   line-height: 1.3;
 }
 

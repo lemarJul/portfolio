@@ -1,4 +1,5 @@
 import css from "./Landing.module.css";
+import { Box } from "@mui/material";
 import profileImg from "../../assets/img/profil.png";
 import jlIcon from "../../assets/icons/jl-icon.png";
 import jl_svg from "../../assets/icons/jl.svg";
@@ -6,9 +7,12 @@ import SocialLinks from "../Footer/SocialLinks";
 import Header from "../Header";
 export default function Landing() {
   return (
-    <section id="landing" className={css.section}>
-      <h1 className={css.title}>Julien Lemarchand</h1>
-  
+    <div id="landing" className={css.section}>
+      <div className={css.titleContainer}>
+        <h1 className={css.title}>Julien Lemarchand</h1>
+        <h2 className={css.subtitle}>Développeur Full-Stack Javascript</h2>
+      </div>
+
       {/* <img src={jl_svg} alt="" className={css.icon} />
       <h2 className={css.subtitle}>Développeur Full-Stack JavaScript</h2>
       <img src={profileImg} alt="profile" className={css.profil_img} />
@@ -30,6 +34,6 @@ export default function Landing() {
         <SocialLinks />
       </div>
       <div className={css.mail}></div> */}
-    </section>
+    </div>
   );
 }

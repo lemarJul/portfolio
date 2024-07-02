@@ -14,6 +14,7 @@ function SocialMediaCard({ style = {}, className = "", ...props }) {
     },
     content: {
       position: "relative",
+      gap: "var(--spacing-medium)",
       paddingLeft: "var(--spacing-large)",
       borderLeft: "2px solid var(--color-grey)",
     },
@@ -24,7 +25,7 @@ function SocialMediaCard({ style = {}, className = "", ...props }) {
       transform: "translateX( -50%)",
       boxShadow: "0 0 0 8px var(--color-light)",
     },
-    name: {
+    title: {
       fontSize: "var(--font-size-large)",
       fontWeight: "bold",
     },
@@ -32,19 +33,19 @@ function SocialMediaCard({ style = {}, className = "", ...props }) {
       gap: "var(--spacing-small)",
       color: "var(--color-grey)",
     },
-    userName: {
+    subtitle__userName: {
       color: "var(--color-dark)",
     },
   };
 
   return (
     <Row className={className} style={s.container} {...props}>
-      <Col gap="var(--spacing-medium)" style={s.content}>
+      <Col style={s.content}>
         <Avatar style={s.avatar} />
-        <Col style={{ fontSize: "var(--font-size-medium" }}>
-          <span style={s.name}>Julien lemarchand</span>
+        <Col>
+          <span style={s.title}>Julien lemarchand</span>
           <Row style={s.subtitle}>
-            <span style={s.userName}>@lemarJul</span>
+            <span style={s.subtitle__userName}>@lemarJul</span>
             <span>•</span>
             <span>now</span>
           </Row>

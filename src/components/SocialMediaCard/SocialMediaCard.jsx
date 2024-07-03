@@ -14,8 +14,8 @@ function SocialMediaCard({ style = {}, className = "", ...props }) {
     },
     content: {
       position: "relative",
-      gap: "var(--spacing-medium)",
-      paddingLeft: "var(--spacing-large)",
+      gap: "var(--spacing-m)",
+      paddingLeft: "var(--spacing-l)",
       borderLeft: "2px solid var(--color-grey)",
     },
     avatar: {
@@ -26,11 +26,11 @@ function SocialMediaCard({ style = {}, className = "", ...props }) {
       boxShadow: "0 0 0 8px var(--color-light)",
     },
     title: {
-      fontSize: "var(--font-size-large)",
+      fontSize: "var(--font-size-l)",
       fontWeight: "bold",
     },
     subtitle: {
-      gap: "var(--spacing-small)",
+      gap: "var(--spacing-s)",
       color: "var(--color-grey)",
     },
     subtitle__userName: {

@@ -14,7 +14,7 @@
 
   align-items: center;
 
-  gap: var(--gap-large);
+  gap: var(--spacing-l);
 }
 .carousel_items > * {
   flex-grow: 0;
@@ -33,7 +33,7 @@
 .left {
   width: 50px;
   aspect-ratio: 1/1;
-  background-color: var(--color-primary);
+  background-color: var(--color-dark);
   color: var(--color-light);
   display: flex;
   justify-content: center;
@@ -42,7 +42,7 @@
   border-radius: 50%;
   position: absolute;
   top: 50%;
-  left: var(--padding-medium);
+  left: var(--spacing-m);
   transform: translateY(-50%);
   z-index: 1;
 }
@@ -50,7 +50,7 @@
 .right {
   width: 50px;
   aspect-ratio: 1/1;
-  background-color: var(--color-primary);
+  background-color: var(--color-dark);
   color: var(--color-light);
   display: flex;
   justify-content: center;
@@ -59,18 +59,18 @@
   border-radius: 50%;
   position: absolute;
   top: 50%;
-  right: var(--padding-medium);
+  right: var(--spacing-m);
   transform: translateY(-50%);
   z-index: 1;
 }
 .dots_container {
   position: absolute;
-  bottom: var(--padding-medium);
+  bottom: var(--spacing-m);
   left: 50%;
   transform: translateX(-50%);
   display: flex;
   justify-content: center;
-  gap: var(--gap-small);
+  gap: var(--spacing-s);
 }
 .dot {
   width: 5px;

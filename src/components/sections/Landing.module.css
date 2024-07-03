@@ -1,6 +1,6 @@
 .flexSection {
   display: flex;
-  gap: var(--gap-medium);
+  gap: var(--spacing-m);
   width: 900px;
   aspect-ratio: 16/9;
 }
@@ -14,14 +14,14 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  gap: var(--gap-medium);
+  gap: var(--spacing-m);
   border: 2px solid var(--color-green-light);
 }
 .flexRow {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  gap: var(--gap-medium);
+  gap: var(--spacing-m);
   border: 2px solid var(--color-red);
 }
 
@@ -30,15 +30,14 @@
   display: grid;
   grid-template-rows: 4fr 3fr 3fr 2fr 2fr;
   grid-template-columns: repeat(12, 1fr);
-  gap: var(--gap-medium);
-  padding: var(--padding-medium);
+  gap: var(--spacing-m);
+  padding: var(--spacing-m);
   background-color: var(--color-light);
   width: 1200px;
 }
 
 .gridItem {
   background-color: var(--color-red);
-  padding: var(--padding-medium);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -113,7 +112,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: var(--color-blue);
-  gap: var(--gap-medium);
+  gap: var(--spacing-m);
 }
 .social {
   width: 30%;
@@ -123,18 +122,18 @@
 
 .social_links {
   background-color: var(--color-blue);
-  padding: var(--padding-medium);
+  padding: var(--spacing-m);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .social_links a {
   color: var(--color-green-light) !important;
-  margin: 0 var(--gap-medium);
+  margin: 0 var(--spacing-m);
 }
 .stack {
   background-color: var(--color-red);
-  padding: var(--padding-medium);
+  padding: var(--spacing-m);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,14 +141,14 @@
 
 .projects {
   background-color: var(--color-red);
-  padding: var(--padding-medium);
+  padding: var(--spacing-m);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .action {
   background-color: var(--color-blue);
-  padding: var(--padding-medium);
+  padding: var(--spacing-m);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -157,5 +156,5 @@
 
 .mail {
   background-color: var(--color-yellow);
-  padding: var(--padding-medium);
+  padding: var(--spacing-m);
 } */

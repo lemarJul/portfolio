@@ -3,7 +3,7 @@
   position: relative;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  grid-gap: var(--gap-small);
+  grid-gap: var(--spacing-s);
   grid-auto-rows: minmax(50px, auto);
 }
 .box > * {
@@ -13,9 +13,9 @@
 .box__title {
   position: absolute;
   text-transform: uppercase;
-  top: var(--padding-medium);
-  left: var(--padding-medium);
-  padding: var(--padding-small) var(--padding-medium);
+  top: var(--spacing-m);
+  left: var(--spacing-m);
+  padding: var(--spacing-s) var(--spacing-m);
   background-color: var(--color-light);
   border: 2px solid var(--color-dark);
   /* From https://css.glass */
@@ -44,7 +44,7 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
   aspect-ratio: 1/1;
   color: var(--color-light);
   background-color: var(--color-grey);
-  padding: var(--padding-small);
+  padding: var(--spacing-s);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,7 +55,7 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
 }
 .box__button {
   font-weight: bold;
-  font-size: var(--font-size-medium);
+  font-size: var(--font-size-m);
   aspect-ratio: 1/1;
   color: var(--color-dark);
   background-color: var(--color-grey);
